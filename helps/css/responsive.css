@@ -1,0 +1,140 @@
+@media(min-width:0px) and (max-width:673px) {
+    header p {
+    width: 70%;
+    margin: 0px auto;
+    text-align: center;
+    color: #f8f9fa;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 19px;
+    }
+}
+@media(min-width:674px) and (max-width:900px) {
+   header {
+    padding: 120px 0px;
+   }
+   .nav_site{
+    top:10%;
+   }
+   .counting{
+    padding: 60px;
+   }
+   .another{
+    padding: 80px 0px;
+}
+    
+.from_section .form_width{
+    width: 75%;
+}
+.from_section{
+    padding: 80px 0px;
+}
+
+footer p{
+    width: 90%;
+}
+footer .border-bottom{
+    width: 85%;
+    margin: 0px auto;
+
+} 
+footer{
+    padding: 80px 0px;
+}
+}
+@media(min-width:400px) and (max-width:673px) {
+    header {
+     padding: 80px 0px;
+    }
+    .nav_site{
+        top:10%;
+       }
+       .counting{
+        padding: 60px;
+       }
+       .another{
+        padding: 60px 0px;
+    }
+    .from_section{
+        padding: 60px 0px;
+    }
+    
+    .from_section .form_width{
+        width: 80%;
+    }
+    footer p{
+        font-size: 16px;
+        width: 100%;}
+    footer .border-bottom{
+        width: 90%;
+        margin: 0px auto;
+        
+    } 
+     footer{
+        padding: 60px 0px;
+    }
+ }
+ @media(min-width:0px) and (max-width:399px) {
+    header {
+     padding: 40px 0px;
+    }
+    footer p{
+        font-size: 15px;
+        width: 100%;
+    }
+    header p{
+        width: 80%;
+    }
+    .nav_site{
+        top:5%;
+       }
+       .counting{
+        padding: 40px;
+       }
+       .another{
+        padding: 40px 0px;
+    }
+    .from_section{
+        padding: 40px 0px;
+    }
+    .from_section .form_width textarea{
+        height: 100px;
+    }
+    footer .border-bottom{
+        width: 95%;
+        
+    } 
+    footer{
+        padding: 40px 0px;
+    }
+ }
+ /* START Resume Oftion */
+ @media(min-width:0px) and (max-width:991px) {
+    .containerr .my_resume{
+        top:20%;
+        left: -80px;
+    }
+    article .ab-myself{
+        top:20%;
+        left:-80px;
+ }
+ @media(min-width:0px) and (max-width:452px) {
+    .containerr .ps-5 .Experience{
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .containerr .ps-5 .education{
+        margin-left: 24px;
+    }
+    .containerr .text-center img{
+        object-fit: contain;
+        width: 80%;
+    }
+    article img{
+        width: 80%;
+    }
+    .from_section .form_width{
+        width: 90%;
+    }
+ }
+ /* For Galary Section */
+

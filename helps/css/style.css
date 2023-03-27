@@ -1,0 +1,507 @@
+/* font Knowladge Link */
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400;600;800;900&family=Catamaran:wght@400;600;700;900&family=DM+Sans:ital,wght@0,400;0,700;1,500&family=Dosis:wght@400;600;700;800&family=Montserrat:wght@400;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,400&family=Roboto:wght@400;700&family=Source+Sans+Pro:wght@400;700&display=swap');
+
+/* Font Knowlage fonts */
+
+    /*     font-family: 'Bitter', serif;
+
+    font-family: 'Catamaran', sans-serif;
+
+    font-family: 'DM Sans', sans-serif;
+
+    font-family: 'Dosis', sans-serif;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Playfair Display', serif;
+
+    font-family: 'Roboto', sans-serif;
+
+    font-family: 'Source Sans Pro', sans-serif;
+
+    */
+    *{
+
+        font-family: 'Source Sans Pro', sans-serif;
+        box-sizing: border-box;
+    }
+    .for_all_a{
+        padding: 10px 40px;
+        display: inline-block;
+        border: 1px solid black;
+        text-decoration: none;
+        color: #000000;
+    }
+    a{
+        text-decoration: none;
+    }
+/* Start NAV Fixed Section */
+.nav_site{
+    background-color: #0D1326;
+    width: 70px;
+    padding: 14px 0px;
+    position: fixed;
+    top:25%;
+    right: 0%;
+    border-radius: 15px 0px 0px 15px;
+}
+.nav_site .nav-link{
+    color: #acafbb;
+    transition: 1s all;
+}
+.nav_site .nav-link:hover{
+    color: #ffffff;
+}
+
+/* End Fixed Navber Section */
+
+/* Start Header Section */
+
+header{
+    background: url(../img/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0px;
+}
+.display-1{
+    font-size: 52px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    
+}
+header p {
+    width: 50%;
+    margin: 0px auto;
+    text-align: center;
+    color: #f8f9fa;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 19px;
+}
+header .text-light{
+    margin-right: 20px;
+    height: 24px;
+}
+header .text-readd{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+    color: #f8f9fa;
+    padding:10px 20px;
+}
+/* End HEader Section */
+
+/* Start Nav SecTions   */
+
+nav{
+    color:white;
+    box-shadow: 5px 0px 5px gray;
+    
+}
+nav .container .navbar-brand{
+    color: #212529;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+nav .container button{
+    background-color: #EEEEEE;
+}
+nav .container .navbar-collapse .navbar-nav {
+    width: 180px;
+}
+nav .container .navbar-collapse .navbar-nav .nav-item {
+    transition: .6s all;
+}
+nav .container .navbar-collapse .navbar-nav .nav-Home-button {
+    background-color: #49b491;
+}
+nav .container .navbar-collapse .navbar-nav .nav-Home-button {
+    color: white;
+}
+nav .container .navbar-collapse .navbar-nav .nav-item:hover {
+    background-color: #5AD4AB;
+}
+nav .container .navbar-collapse .navbar-nav .nav-item a {
+    transition: .6s all;
+}
+nav .container .navbar-collapse .navbar-nav .nav-item a:hover {
+    color:#FFFFFF;
+}
+
+
+/* End NAv Sections */
+
+/* Start Article Sections */
+
+article {
+    position: relative;
+}
+article .ab-myself{
+    transform: rotate(270deg);
+    top:35%;
+    position:absolute;
+    left:-80px;
+    color: #212529;
+    font-family: 'DM Sans', sans-serif;
+    letter-spacing: 10px;
+    font-size: 20px;
+}
+article span, h2{
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    color: #333333;
+    font-style: italic;
+}
+article p{
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 16px;
+    color: #999999;
+    margin-bottom: 40px;
+}
+
+article .for_all_a{
+    border-color: #33cc99;
+    transition: .7s all;
+}
+article .for_all_a:hover{
+    color: #33cc99;
+}
+/* End Article Section */
+
+/* Start Skill Sections */
+.containerp{
+    width: 80%;
+    margin: 50px auto;
+}
+.container  .row p{
+    font-size: 24px;
+    color:#343a40;
+    margin-top: 20px;
+}
+
+.container  .row .icon_1{
+    font-size: 40px;
+    color:#00a3e2;
+
+}
+.container  .row .icon_2{
+    font-size: 40px;
+    color:#fabd42;
+}
+.container  .row .icon_3{
+    font-size: 40px;
+    color:#e53b2c;
+}
+.container  .row .icon_4{
+    font-size: 40px;
+    color:#0ca750;
+}
+/* End Skill Section */
+
+/* Start Counting Section */
+
+.counting{
+    background: url(../img/bg5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 100px;
+}
+.counting span{
+    font-size: 48px;
+    color:#fff;
+    font-weight: 900;
+    font-family: "Source Sans Pro", sans-serif;
+}
+.counting p{
+    font-family: "Source Sans Pro", sans-serif;
+    text-align: center;
+    font-size: 15px;
+    margin: 15px 0px;
+    text-transform: uppercase;
+}
+
+/* END Counting Section */
+
+/* Start Doing Section */
+.doing_section h3{
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: #343a40;
+}
+.doing_section .border-bottoms{
+    padding: 50px;
+    border-radius: 10px;
+    border-bottom:2px solid #00a3e2;
+    background-color: #F7F7F7;
+}
+.doing_section i{
+    padding: 40px;
+    display: inline-block;
+    color: white;
+    font-size: 40px;
+    background-color: #00a3e2;
+    margin-bottom: 20px;
+}
+.doing_section h4{
+    font-size: 22px;
+    font-weight: 700;
+    font-family: font-family: 'Source Sans Pro', sans-serif;
+}
+.doing_section .text-center .p-work{
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #615d5d;
+    padding: 0px 30px;
+}
+/* End Donig Section */
+
+/* Start Resume Sections */
+.containerr{
+    position: relative;
+    margin-top: 60px;
+}
+.containerr .my_resume{
+    position: absolute;
+    transform: rotate(270deg);
+    letter-spacing: 12px;
+    font-size: 18px;
+    text-align: center;
+    top:50%;
+    left: -100px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #212529;
+    font-weight: 600;
+}
+.containerr .text-center img{
+    object-fit: contain;
+}
+.containerr .ps-5 .degrees h4{
+    font-size: 24px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    color: #333333;
+}
+.containerr .ps-5 .degrees span{
+    font-size: 16px;
+    font-family:serif;
+    font-weight: 500;
+    color: #555555;
+    font-style: italic;
+}
+.containerr .ps-5 .degrees p{
+    font-size: 15px;
+    font-family: "Source Sans Pro", sans-serif;
+    color: #999999;
+    line-height: 29px;
+}
+.containerr .ps-5 .education{
+    font-size: 16px;
+    font-family: "Source Sans Pro", sans-serif;
+    color: #33cc99;
+    font-weight: 600;
+}
+.containerr .ps-5 .Experience{
+    font-size: 16px;
+    font-family: "Source Sans Pro", sans-serif;
+    color: #9a9e9e;
+    font-weight: 600;
+}
+.containerr .ps-5 .Experience:hover{
+    color: #33cc99;
+}
+/* End Resume  Section */
+
+/* START Another BB Section */
+.another{
+    background: #33cc99;
+    padding: 100px 0px;
+}
+.another .mx-auto p{
+    font-size: 34px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    color: #fff;
+}
+.another .mx-auto a{
+    font-size: 16px;
+    font-family: "Source Sans Pro", sans-serif;
+    color: #fff;
+}
+
+/* END Another BB Sections */
+
+/* Start Galary Section */
+
+.galary .row .col-12 .galary_image img{
+    width: 100%;
+}
+.galary h5{
+    font-size: 36px;
+    font-weight: 600;
+    font-family: "Source Sans Pro", sans-serif;
+    color: #343a40;
+    text-align: center;
+    padding: 50px 0px;
+}
+/* END Galary Section */
+
+/* Start Banner 2 Section */
+
+.banner_2{
+    background:url(../img/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+    object-fit: cover;
+}
+.banner_2 .container .row .ms-auto{
+    background-color: rgb(0, 0, 0);
+    opacity: 55%;
+}
+.banner_2 .container .row .ms-auto .p_banner_2{
+    font-family: "Source Sans Pro", sans-serif;
+    line-height: 30px;
+    color: whitesmoke;
+    font-size: 16px;
+    font-style: italic;
+}
+.banner_2 .container .row .ms-auto .p_banner_name{
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+}
+/* End Banner 2 Section */
+
+/* Start REcen Blogs */
+
+.b-art small{
+    color: #b9b9b9;
+    text-transform: uppercase;
+}
+.b-art a{
+    color: #1d1d1d;
+    text-transform: uppercase;
+    font-size: 22px;
+    line-height: 31px;
+    font-weight: 400;
+}
+.container .row .col-lg-4 .b-art p{
+    font-family: "Source Sans Pro", sans-serif;
+    color: #999999;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+/* End Recent Blogs */
+
+/* Start Form Section */
+
+.from_section{
+    background: url(../img/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px;
+}
+.from_section .form_width{
+    width: 65%;
+}
+.from_section .form_width label{
+    color: #555555;
+}
+.from_section .form_width textarea{
+    height: 140px;
+}
+
+.from_section form .button_f{
+    border: 0px solid transparent;
+    background: #0ca750;
+    color:white;
+    padding: 15px 50px;
+    margin-top: 20px;
+    text-transform: uppercase;
+
+    transition: .8s all;
+}
+.from_section form .button_f:hover{
+    background: #3bd67e;
+}
+
+/* End Form Section */
+
+ /* Start Footer Section */
+
+
+ footer{
+    background:url(../img/2.jpg);
+    background-size: cover;
+    padding: 120px 0px;
+    background-repeat: no-repeat;
+    text-align: center;
+} 
+footer h6{
+    color:white;
+    font-size: 52px;
+    font-family: sans-serif;
+    letter-spacing: 10px;
+}
+footer .border-bottom{
+    width: 80%;
+    margin: 0px auto;
+
+} 
+footer p{
+    font-size: 18px;
+    font-family: "Source Sans Pro", sans-serif;
+    line-height: 1.5;
+    width: 80%;
+    margin: 0px auto;
+    margin-bottom: 40px;
+}
+footer small{
+    font-size: 16px;
+    font-family: "Source Sans Pro", sans-serif;
+    color: #fff;
+    margin-top: 30px;
+    display: block
+}
+footer span{
+    font-size: 28px;
+    font-family: "Source Sans Pro", sans-serif;
+}
+footer .border-bottom .icon_facebook{
+    background-color: #3B5998;
+    padding: 7px 13px;
+}
+footer .border-bottom .icon_t{
+    background-color: #1DA1F2;
+    padding: 7px 11px;
+}
+footer .border-bottom .icon_instra{
+    background-color: #EA4C89;
+    padding: 7px 12px;
+}
+footer .border-bottom .icon_go{
+    background-color: #F44336;
+    padding: 7px 10px;
+}
+ /* End Footer section */
+ .hexagon {
+    top: 30vh;
+    left: 40%;
+    position: absolute;
+    margin: 0 auto;
+    background-color: dodgerblue;
+    border-radius: 10px;
+    width: 100px; 
+    height: 80px;
+    box-sizing: border-box;
+    transition: all 1s;
+    border: 0.4vh solid transparent;
+}
+  
+/* Creating pseudo-class */
