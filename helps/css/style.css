@@ -94,12 +94,14 @@ header .text-readd{
 /* Start Nav SecTions   */
 
 nav{
-    color:white;
-    box-shadow: 5px 0px 5px gray;
+    background-color:rgba(0, 0, 0,.2);
     
 }
+nav.navber:hover{
+    background-color: transparent;
+}
 nav .container .navbar-brand{
-    color: #212529;
+    color: #ffffff;
     font-size: 24px;
     font-weight: 600;
 }
@@ -107,17 +109,11 @@ nav .container .navbar-brand{
 nav .container button{
     background-color: #EEEEEE;
 }
-nav .container .navbar-collapse .navbar-nav {
-    width: 180px;
+nav .container .navbar-collapse  .w-25{
+    background-color: white;
 }
 nav .container .navbar-collapse .navbar-nav .nav-item {
     transition: .6s all;
-}
-nav .container .navbar-collapse .navbar-nav .nav-Home-button {
-    background-color: #49b491;
-}
-nav .container .navbar-collapse .navbar-nav .nav-Home-button {
-    color: white;
 }
 nav .container .navbar-collapse .navbar-nav .nav-item:hover {
     background-color: #5AD4AB;
@@ -128,7 +124,6 @@ nav .container .navbar-collapse .navbar-nav .nav-item a {
 nav .container .navbar-collapse .navbar-nav .nav-item a:hover {
     color:#FFFFFF;
 }
-
 
 /* End NAv Sections */
 
